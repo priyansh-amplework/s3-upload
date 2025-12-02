@@ -1,1 +1,1 @@
-web: uvicorn upload_app:app --host 0.0.0.0 --port $PORT
+web: streamlit run upload_frontend.py --server.address=0.0.0.0 --server.port=$PORT
