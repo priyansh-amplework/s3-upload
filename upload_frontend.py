@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from pathlib import Path
 import os
-BACKEND_BASE = os.getenv("BACKEND_URL", "")
+BACKEND_BASE = "https://s3-upload-i2ix.onrender.com"
 
 
 # ═══════════════════════════════════════════════════════════
@@ -296,3 +296,4 @@ with col2:
                 st.balloons()
 
 st.markdown('</div>', unsafe_allow_html=True)
+
